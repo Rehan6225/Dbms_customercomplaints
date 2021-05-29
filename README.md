@@ -1,22 +1,22 @@
 
 <h2 align="center">
   Customer Complaints Services regarding online shopping
+  
 </h2>
-
+<p align="center">
+  
+  `Php` `Html` `Css`
+  
+</p>
 
 ## :eyes:About
 
 - 
 
 
-## :scroll:Programming Language
 
-
-
-`php`
-
-## Database connection
-```
+## :scroll:Database connection
+```php
 $server="localhost";
 $username="root";
 $password="";
@@ -27,11 +27,11 @@ if(!$con){
 die("connection to this database failed due to" . mysqli_connect_error());
 }
 else{
-Database successfully connected
+echo "Database successfully connected"
 }
 ```
-## Insertion into database
-```
+## :scroll:Insertion into database
+```php
 $sql="INSERT INTO `student_details`.`users` (`name`, `gender`, `email`, `tel`, `desc`)
 VALUES ('$name', '$gender', '$email', '$phone', '$desc');";
 //echo $sql;
